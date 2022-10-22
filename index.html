@@ -1,0 +1,214 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href = "anime.css" rel = "stylesheet">
+    <title>Weeb Nation</title>
+    <link rel="icon" href= "http://127.0.0.1:5555/index.html">
+</head>
+
+<body>
+    <div class = "backgroundContainer">
+       <img id = "background" src = "https://wallpaper.dog/large/20524051.jpg">
+
+        <audio id = "backgroundMusic" class = "bgm" src = "images/anime.mp3" loop></audio>
+    </div>
+
+    <div class = "headerBar">
+        <div class = "leftBarContainer">
+            <a class = "logoContainer" href = "http://127.0.0.1:5555/index.html">
+                <div class = "logoImageContainer">
+                    <img class = "logoImage" src = "relative/imagess/redWhiteYinYang.png">
+                </div>
+                <div class = "logoweebnation">
+                    WeebNation
+                </div>
+            </a>
+            <img id = "audioController" src = "relative/imagess/audioControllerOff.png" onclick = "audioController(); imageChange();">
+        </div>
+        <div class="sourcesContainer">
+            <button class = "link" onclick = "showOrHide()">Sources</button>
+            <div class = "dropdownContent">
+                <div class = "aboutCopyright">
+                    Updated to make sure all the content that's here, is credited if necessary and free to use.
+                </div>
+                <br>
+                <div class = "sourceC">Projects Layout<br><a class = "sourcesLink" href = "https://github.com/Lyrenide/Hakurei_Shrine/tree/main" target = "_blank">https://github.com/Lyrenide/Hakurei_Shrine/tree/main</a></div>
+                <br>
+                <div class = "sourceC">First Background Author<br><a class = "sourcesLink" href = "https://wallpaper.dog/black-anime" target = "_blank">https://wallpaper.dog/black-anime</a></div>
+                <br>
+                <div class = "sourceC">Second Background & Quote Author<br><a class = "sourcesLink" href = "hhttps://anime.goodfon.com/senen/wallpaper-inuyasha-demon-ushki-mech-rukoiatka-dlinnye-volosy-ataka-ryv.html" target = "_blank">https://anime.goodfon.com/senen/wallpaper-inuyasha-demon-ushki-mech-rukoiatka-dlinnye-volosy-ataka-ryv.html</a></div>
+                <br>
+                <div class = "sourceC">Layer 1 Image<br><a class = "sourcesLink" href = "https://wallpapers.com/wallpapers/darling-in-the-franxx-strelizia-behind-02-mctii69wiyjl5snh.html" target = "_blank">https://wallpapers.com/wallpapers/darling-in-the-franxx-strelizia-behind-02-mctii69wiyjl5snh.html</a></div>
+                <br>
+                <div class = "sourceC">Background Music<br><a class = "sourcesLink" href = "https://pixabay.com/music/modern-classical-anime-108841/" target = "_blank">https://pixabay.com/music/modern-classical-anime-108841/</a></div>
+                <br>
+                <div class = "sourceC">Genres Links<br><a class = "sourcesLink" href = "https://myanimelist.net/anime.php" target = "_blank">https://myanimelist.net/anime.php</a></div>
+                <br>
+                <div class = "sourceC">Shonen Picture<br><a class = "sourcesLink" href = "https://wallpaperaccess.com/shonen-anime" target = "_blank">https://wallpaperaccess.com/shonen-anime</a></div>
+                <br>
+                <div class = "sourceC">Isekai Picture<br><a class = "sourcesLink" href = "https://otakusnotes.com/best-isekai-anime-on-funimation/" target = "_blank">https://otakusnotes.com/best-isekai-anime-on-funimation/</a></div>
+                <br>
+                <div class = "sourceC">Seinen Picture<br><a class = "sourcesLink" href = "https://www.denofgeek.com/tv/anime-beginners-genre-guide/" target = "_blank">https://www.denofgeek.com/tv/anime-beginners-genre-guide/</a></div>
+                <br>
+                <div class = "sourceC">Shouja Picture<br><a class = "sourcesLink" href = "https://www.fandomspot.com/high-school-romance-anime/" target = "_blank">https://www.fandomspot.com/high-school-romance-anime/</a></div>
+                <br>
+                <div class = "sourceC">Josei Picture<br><a class = "sourcesLink" href = "https://ultramunch.com/top-5-josei-anime-18-only/" target = "_blank">https://ultramunch.com/top-5-josei-anime-18-only/</a></div>
+                <br>
+                <div class = "sourceC">Ecchi Picture<br><a class = "sourcesLink" href = "https://reelrundown.com/animation/Best-Ecchi-Anime" target = "_blank">https://reelrundown.com/animation/Best-Ecchi-Anime</a></div>
+                <br>
+                <div class = "sourceC">Harem Picture<br><a class = "sourcesLink" href = "https://www.crunchyroll.com/anime-news/2022/09/10-1/arifureta-from-commonplace-to-worlds-strongest-tv-anime-returns-for-season-3" target = "_blank">https://www.crunchyroll.com/anime-news/2022/09/10-1/arifureta-from-commonplace-to-worlds-strongest-tv-anime-returns-for-season-3</a></div>
+                <br>
+                <div class = "sourceC">Mecha Picture<br><a class = "sourcesLink" href = "https://www.fandom.com/articles/5-mecha-anime-that-will-make-you-fall-in-love-with-the-genre" target = "_blank">https://www.fandom.com/articles/5-mecha-anime-that-will-make-you-fall-in-love-with-the-genre</a></div>
+                <br>
+                <div class = "sourceC">Slice of Life Picture<br><a class = "sourcesLink" href = "https://www.fandomspot.com/best-slice-of-life-anime-characters/" target = "_blank">https://www.fandomspot.com/best-slice-of-life-anime-characters/</a></div>
+                <br>                
+                <div class = "sourceC">Iyashikei Picture<br><a class = "sourcesLink" href = "https://www.yoair.com/blog/a-beginners-guide-to-the-extraordinary-and-diverse-world-of-anime/" target = "_blank">https://www.yoair.com/blog/a-beginners-guide-to-the-extraordinary-and-diverse-world-of-anime/</a></div>
+                <br>
+                <div class = "sourceC">Kodomomuke Picture<br><a class = "sourcesLink" href = "https://okuha.com/is-anime-for-kids/" target = "_blank">https://okuha.com/is-anime-for-kids/</a></div>
+                <br>
+                <div class = "dm">If you have any concerns about the content displayed here, please email me | josuereyes3371@gmail.com</div>
+            </div>
+        </div>
+        <div class = "rightBarContainer">
+            <div class = "rightBarStuff">
+                <img class = "separator hamburgerStuff" src = "relative/imagess/glowySquare.png">
+                <a class = "contact hamburgerStuff" href = "http://127.0.0.1:5555/index.html">Home</a>
+                <img class = "separator hamburgerStuff" src = "relative/imagess/glowySquare.png">
+                <a class = "about hamburgerStuff" href = "file:///home/josue/anime/index.html/relative/about.html">About</a>
+                <img class = "separator hamburgerStuff" src = "relative/imagess/glowySquare.png">
+                <a class = "contact hamburgerStuff" href = "file:///home/josue/anime/index.html/relative/contact.html">Contact</a>
+                <img class = "separator hamburgerStuff" src = "relative/imagess/glowySquare.png">
+                <a class = "contact hamburgerStuff" href = "https://myanimelist.net/manga.php">Manga</a>
+            </div>
+            <div class = "menuHamburger"><div class = "menuHamburgerBtn"></div></div>
+        </div>
+    </div>
+    
+
+    <div class = "layer1">
+    <!--    <div class = "layer1BgSources"><a class = "layer1BgSource1" href = "https://wallpaper.dog/black-anime" target = "_blank">Background illustration by: Wallpaper.dog </a><br></div> -->
+        <div class = "layer1Container">
+            <div class = "layer1Left">
+                <div class = "greetings">
+                    Welcome to Weeb Nation!
+                </div>
+                <div class = "description">
+                    Where you get to pick the next anime you will watch! There's a broad range of what to choose from and it can be a bit overwhelming but it will be worth it! On top of just watching the Anime, We have a section for people who like to read Manga as well! 
+                </div>
+                <div class = "SearchNowContainer">
+                    <a class = "SearchNow" href = "https://myanimelist.net/anime.php+naruto">Search Now!</a>
+                </div>
+            </div>
+            <div class = "layer1Right">
+                <img class = "layer1Image" src = "https://wallpapers.com/images/featured/darling-in-the-franxx-mctii69wiyjl5snh.jpg">
+            <!--    <a class = "layer1Source" href = "https://wallpapers.com/wallpapers/darling-in-the-franxx-strelizia-behind-02-mctii69wiyjl5snh.html" target = "_blank">Illustration by: Wallpapers.com</a> -->
+            </div>
+        </div>
+    </div>
+
+    <div class = "layer2">
+        <div class = "layer2Bg">
+            <div class = "layer2Content">
+                <div class = "layer2Heading">
+                    Why not come down to the Anime rabbit hole? We've got...
+                </div>
+                <div class = "layer2InfoContainer">
+                    <div class = "ShonenContainer">
+                        <a class = "linkI" href = "https://myanimelist.net/anime/genre/27/Shounen"><img class = "ShonenImage" src = "images/Shonen.webp"></a>
+                        <div class = "ShonenSubtext">Shonen</div>
+                    </div>
+                    <div class = "IsekaiContainer">
+                        <a class = "linkI" href = "https://myanimelist.net/anime/genre/62/Isekai"><img class = "IsekaiImage" src ="images/Rimiru.jpg"></a>
+                        <div class = "IsekaiSubtext">Isekai</div>
+                    </div>
+                    <div class = "SeinenContainer">
+                        <a class = "linkI" href = "https://myanimelist.net/anime/genre/42/Seinen"><img class = "SeinenImage" src = "images/Seinen.webp"></a>
+                        <div class = "SeinenSubtext">Seinen</div>
+                    </div>
+                    <div class = "ShoujaContainer">
+                        <a class = "linkI" href = "https://myanimelist.net/anime/genre/25/Shoujo"><img class = "ShoujaImage" src = "images/Shouja.jpg"></a>
+                        <div class = "ShoujaSubtext">Shouja</div>
+                    </div>
+                    <div class = "JoseiContainer">
+                        <a class = "linkI" href = "https://myanimelist.net/anime/genre/43/Josei"><img class = "JoseiImage" src = "images/Josei.jpeg"></a>
+                        <div class = "JoseiSubtext">Josei</div>
+                    </div>
+                    <div class = "EcchiContainer">
+                        <a class = "linkI" href = "https://myanimelist.net/anime/genre/9/Ecchi"><img class = "EcchiImage" src = "images/Ecchi.webp"></a>
+                        <div class = "EcchiSubtext">Ecchi</div>
+                    </div>
+                    <div class = "HaremContainer">
+                        <a class = "linkI" href = "https://myanimelist.net/anime/genre/35/Harem"><img class = "HaremImage" src = "images/Harem.jpg"></a>
+                        <div class = "HaremSubtext">Harem</div>
+                    </div>
+                    <div class = "MechaContainer">
+                        <a class = "linkI" href = "https://myanimelist.net/anime/genre/18/Mecha"><img class = "MechaImage" src = "images/mecha.webp"></a>
+                        <div class = "MechaSubtext">Mecha</div>
+                    </div>
+                    <div class = "SliceofLifeContainer">
+                        <a class = "linkI" href = "https://myanimelist.net/anime/genre/36/Slice_of_Life"><img class = "SliceofLifeImage" src = "images/SliceofLifejpg"></a>
+                        <div class = "SliceofLifeSubtext">Slice of Life</div>
+                    </div>
+                    <div class = "IyashikeiContainer">
+                        <a class = "linkI" href = "https://myanimelist.net/anime/genre/63/Iyashikei"><img class = "IyashikeiImage" src = "images/Iyashike.webp"></a>
+                        <div class = "IyashikeiSubtext">Iyashikei</div>
+                    </div>
+                    <div class = "KodomomukeContainer">
+                        <a class = "linkI" href = "https://myanimelist.net/anime/genre/15/Kids"><img class = "KodomomukeImage" src = "images/Kodomomuke.webp"></a>
+                        <div class = "KodomomukeSubtext">Kodomomuke(Kids)</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class = "layer3">
+        <!--<div class="layer3BgSources"><a class = "layer3BgSource1" href = "https://anime.goodfon.com/senen/wallpaper-inuyasha-demon-ushki-mech-rukoiatka-dlinnye-volosy-ataka-ryv.html" target = "_blank">Background illustration by: Anime.GoodFon</a><br><a class = "layer3BgSource2" href = "https://blog.displate.com/anime-quotes/" target = "_blank"> Quote by: Inuyasha</a></div>div> -->
+        <!--2nd img is inputted in the CSS-->
+        <div class = "layer3Text">
+            <div class = "layer3Quote">
+                "You've got two legs and a heartbeat. What's stopping you?"
+            </div>
+            <div class = "layer3QuoteFrom">
+                - Inuyasha
+            </div>
+        </div>
+    </div>
+
+    <div class = "layer4">
+        <div class = "layer4Bg">
+            <div class = "layer4Content">
+                <div class = "layer4Text">
+                    <div class = "layer4TextHeading">
+                        Is there something strange? (In the neighborhood, perhaps?)
+                    </div>
+                    <div class = "layer4TextSubtext">
+                        Then it might be a bug! Get in touch with the Senpai now for its fix! Guaranteed!
+                    </div>
+                </div>
+                <div class = "layer4ContactContainer">
+                    <a class = "layer4Contact" href = "file:///home/josue/anime/index.html/relative/contact.html">
+                        Contact!
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- Maybe make the red here a little longer to see the full 2nd picture-->
+
+    <div class = "footerLayer">
+        <div class = "footerLayerBg">
+            <a class = "footerLayerAuthor" href = "file:///home/josue/anime/index.html/relative/contact.html" target = "_blank">
+                Webpage by: JosuexReyes
+            </a>
+        </div>
+    </div>
+
+</body>
+
+<script src = "anime.js"></script>
+</html>
