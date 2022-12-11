@@ -1,4 +1,5 @@
-# anime
+Anime 1
+
 Helps you search anime!
 
 Initially done on linnux operating system and then transferred over to windows i.e anime 3.
