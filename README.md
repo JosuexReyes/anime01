@@ -1,7 +1,7 @@
 Anime 1
 
-Helps you search anime!
+Anime 1 was done with the help of what i learned in the Odin Project. 
 
-Initially done on linnux operating system and then transferred over to windows i.e anime 3.
+Initially done on linnux operating system and then transferred over to windows.
 
-Anime 2 was done in code spaces and then transferred to windows. 
+See anime02 to see the next step in this idea further the idea with anime02.
