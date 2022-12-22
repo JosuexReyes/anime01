@@ -1,6 +1,6 @@
 Anime 1
 
-Anime 1 was done with the help of what i learned in the Odin Project. 
+Anime 1 was done with the help of what i learned in The Odin Project. 
 
 Initially done on linnux operating system and then transferred over to windows.
 
